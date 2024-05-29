@@ -24,10 +24,57 @@ func main() {
 
 // Usamos símbolo == é igualdade.
 
-var x string = "hello" var y
-string = "world"
-fmt.Println(x==y) // imprimirá falso, pois hello não pe o mesmo que wolrd.
+// var x string = "hello" 
+// var y string = "world"
+// fmt.Println(x==y) // imprimirá falso, pois hello não pe o mesmo que wolrd.
 
-var x string = "hello" var y
-string = "hello"
-fmt.Println(x==y) //imprime verdadeiro porque as duas strings são iguais.
+// var x string = "hello" var y
+// string = "hello"
+// fmt.Println(x==y) //imprime verdadeiro porque as duas strings são iguais.
+
+// x:="Hello, World" 
+// compilador Go é capaz deinferir o tipo com base no valor que atribuimos à variável.
+
+// var x= "Hello, World" // inferência com a instrução var
+
+// x.=5
+// fmt.Println(x)
+
+
+// Nomeando uma variável
+
+// nome := "Max"
+// fmt.Println("O nome do meu cachorro é:", nome)
+
+
+// dogName := "Max"
+// fmt.println("O nome do meu cachorro é", dogName)
+
+
+// Escopo
+
+package main
+
+import "fmt"
+
+func main() {
+	var x string = "Hello, World"
+	fmt.Println(x)
+}
+
+// Outra forma de escrever este programa seria assim:
+
+package main
+
+import "fmt"
+
+var x string = "Hello, World"
+
+func main() {
+	fmt.Println(x)  // movi a variável para fora da função principal
+}                   // isso significa que outras funções podem acessar está variável
+    
+
+
+
+

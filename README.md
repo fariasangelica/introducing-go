@@ -18,20 +18,33 @@ O autor aborda os principais recursos da linguagem e também tem os exercícios 
 
 ## Capítulo 2 - Tipos
 ### Números
-> Inteiros: São números sem componentes decimais. (...,0,1, 2, ...). Existem também três tipos inteiros dependentes da 
+> - Inteiros: São números sem componentes decimais. (...,0,1, 2, ...). Existem também três tipos inteiros dependentes da 
 máquina: uint, int e uintptr. Eles dependem da máquina porque seu tamanho depende 
 do tipo de arquitetura que você está usando.
 >
-> Floats: Contém um componente decimal.
+> - Floats: Contém um componente decimal.
 > 
-> String: Sequência de caracteres com comprimeito definido usadas para representar texto. As strings Go são compostas de bytes individuais, geralmente um para cada caractere.
+> - String: Sequência de caracteres com comprimeito definido usadas para representar texto. As strings Go são compostas de bytes individuais, geralmente um para cada caractere.
+>
 > Um espaço também é considerado um caractere.
+>
 > Strings são indexadas começando em 0, não em 1.
+>
 > A concatenação utiliza o mesmo símbolo da adição. Ex: Se ambos os lados forem strings, então o compiçador assume que você quer dizer concatenação e não adição.
+>
 > O comprimento de uma string pode ser encontrado usando a função len (len("a string")).
+>
 > Booleanos: Um valor booleano (em homenagem a George Boole) é um tipo inteiro especial de 1 bit usado para representar verdadeiro e falso. Existem três operadores lógicos principais: AND (&&), OR (||) e NOT (!).
+>
 > Frequentemente os booleanos são usados para tomada de decisão.
 
 ## Capítulo 3 - Variáveis
 >
 > Uma variável é um local de armazenamento, como um tipo específico e um nome associado.
+>
+> O compilador não se importa com o nome que você da a uma variável,mas é importante escolher um nome que descreve claramente o propósito da variável.
+>
+> camelCase é um estilo para escrever palavras compostas em que a primeira letra de cada nova palavra ou frase é maiúscula.
+>
+> 
+
