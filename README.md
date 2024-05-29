@@ -27,4 +27,12 @@ do tipo de arquitetura que você está usando.
 - String: Sequência de caracteres com comprimeito definido usadas para representar texto. As strings Go são compostas de bytes individuais, geralmente um para cada caractere.
 - Um espaço também é considerado um caractere.
 - Strings são indexadas começando em 0, não em 1.
-- 
+- A concatenação utiliza o mesmo símbolo da adição. Ex: Se ambos os lados forem strings, então o compiçador assume que você quer dizer concatenação e não adição.
+- O comprimento de uma string pode ser encontrado usando a função len (len("a string")).
+-
+- Booleanos: Um valor booleano (em homenagem a George Boole) é um tipo inteiro especial de 1 bit usado para representar verdadeiro e falso. Existem três operadores lógicos principais: AND (&&), OR (||) e NOT (!).
+- Frequentemente os booleanos são usados para tomada de decisão.
+
+## Capítulo 3 - Variáveis
+-
+- Uma variável é um local de armazenamento, como um tipo específico e um nome associado.
