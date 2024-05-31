@@ -26,25 +26,30 @@ do tipo de arquitetura que você está usando.
 > 
 > - String: Sequência de caracteres com comprimeito definido usadas para representar texto. As strings Go são compostas de bytes individuais, geralmente um para cada caractere.
 >
-> Um espaço também é considerado um caractere.
+> - Um espaço também é considerado um caractere.
 >
-> Strings são indexadas começando em 0, não em 1.
+> - Strings são indexadas começando em 0, não em 1.
 >
-> A concatenação utiliza o mesmo símbolo da adição. Ex: Se ambos os lados forem strings, então o compiçador assume que você quer dizer concatenação e não adição.
+> - A concatenação utiliza o mesmo símbolo da adição. Ex: Se ambos os lados forem strings, então o compiçador assume que você quer dizer concatenação e não adição.
 >
-> O comprimento de uma string pode ser encontrado usando a função len (len("a string")).
+> - O comprimento de uma string pode ser encontrado usando a função len (len("a string")).
 >
-> Booleanos: Um valor booleano (em homenagem a George Boole) é um tipo inteiro especial de 1 bit usado para representar verdadeiro e falso. Existem três operadores lógicos principais: AND (&&), OR (||) e NOT (!).
+> - Booleanos: Um valor booleano (em homenagem a George Boole) é um tipo inteiro especial de 1 bit usado para representar verdadeiro e falso. Existem três operadores lógicos principais: AND (&&), OR (||) e NOT (!).
 >
-> Frequentemente os booleanos são usados para tomada de decisão.
+> - Frequentemente os booleanos são usados para tomada de decisão.
 
 ## Capítulo 3 - Variáveis
 >
-> Uma variável é um local de armazenamento, como um tipo específico e um nome associado.
+> - Uma variável é um local de armazenamento, como um tipo específico e um nome associado.
 >
-> O compilador não se importa com o nome que você da a uma variável,mas é importante escolher um nome que descreve claramente o propósito da variável.
+> - O compilador não se importa com o nome que você da a uma variável,mas é importante escolher um nome que descreve claramente o propósito da variável.
 >
-> camelCase é um estilo para escrever palavras compostas em que a primeira letra de cada nova palavra ou frase é maiúscula.
+> - camelCase é um estilo para escrever palavras compostas em que a primeira letra de cada nova palavra ou frase é maiúscula.
 >
-> 
+> - Duas formas de criar variáveis: var x = 5 ou x := 5.
+>
+> - Escopo é o intervalo de lugares em que uma variável pode ser usada. Ele é determinado lexicamente usando blocos.
+>
+> Constantes:
+> - São variáveis cujo os valores não podem ser alterados posteriormente. Elas criadas da mesma forma que as variáveis, mas em vez de usar a palavra-chave var, usamos a palavra-chave const.
 

@@ -71,9 +71,22 @@ import "fmt"
 var x string = "Hello, World"
 
 func main() {
-	fmt.Println(x)  // movi a variável para fora da função principal
-}                   // isso significa que outras funções podem acessar está variável
+	fmt.Println(x)  
+	
+	} 
+// movi a variável para fora da função principal                
+// isso significa que outras funções podem acessar está variável
     
+var x string = "Hello, World"
+
+func main() {
+	fmt.Println(X)
+
+	fmt f() { // Função f tem acesso a variável x
+		fmt.Println(x)
+	}
+}
+
 
 
 
