@@ -5,7 +5,7 @@ O autor aborda os principais recursos da linguagem e também tem os exercícios 
 
 ## Capítulo 1 - Introdução
 
-### Package main
+- Package main
 > É uma declaração de pacote e todo programa Go deve começar com ela.
 > Os pacotes são a maneira do Go organizar e reutilizar os códigos.
 > Existem dois tipos de programas em Go: Executáveis e bibliotecas. Executáveis são is tips de programas que podemos executar diretamente do terminal e Bibliotecas são coleções de código que empacotamos para que possamos usá-los em outros programas.
