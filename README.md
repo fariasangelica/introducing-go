@@ -53,3 +53,16 @@ do tipo de arquitetura que você está usando.
 > Constantes:
 > - São variáveis cujo os valores não podem ser alterados posteriormente. Elas criadas da mesma forma que as variáveis, mas em vez de usar a palavra-chave var, usamos a palavra-chave const.
 
+## Capítulo 4 - Estrutura de Controle
+>
+> - A instrução for nos permite repetir uma lista de instruções (um bloco) várias vezes.
+>
+> - Go só tem uma maneira de escrever loop, mas essa pode ser usada de várias maneiras.
+>
+> - Uma instrução if é semelhante a uma instrução for porque possui uma condição seguida por um bloco. As 
+instruções if também têm uma parte else opcional. Se a condição for avaliada como verdadeira, o bloco após 
+a condição será executado; caso contrário, o bloco será ignorado ou, se o bloco else estiver presente, esse 
+bloco será executado.
+>
+> - 
+
