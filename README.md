@@ -18,7 +18,7 @@ O autor aborda os principais recursos da linguagem e também tem os exercícios 
 > - Funções são os blocos de construção de um programa Go. Eles têm entrada, saídas e uma série de etapas chamadas de instruções que são executadas em ordem. Todas as instruções devem começar com "func" e em seguida com o nome da função (principal, neste caso), uma lista de zero ou mais parâmetros entre parênteses, um tipo de retorno opcional e um corpo cercado por chaves.
 
 ## Capítulo 2 - Tipos
-### Números
+> Números
 > - Inteiros: São números sem componentes decimais. (...,0,1, 2, ...). Existem também três tipos inteiros dependentes da 
 máquina: uint, int e uintptr. Eles dependem da máquina porque seu tamanho depende 
 do tipo de arquitetura que você está usando.
