@@ -5,10 +5,10 @@ O autor aborda os principais recursos da linguagem e também tem os exercícios 
 
 ## Capítulo 1 - Introdução
 
-- Package main
+### Package main
 > É uma declaração de pacote e todo programa Go deve começar com ela.
 > Os pacotes são a maneira do Go organizar e reutilizar os códigos.
-> Existem dois tipos de programas em Go: Executáveis e bibliotecas. Executáveis são is tips de programas que podemos executar diretamente do terminal e Bibliotecas são coleções de código que empacotamos para que possamos usá-los em outros programas.
+> Existem dois tipos de programas em Go: Executáveis e bibliotecas. Executáveis são is tips de programas que podemos executar diretamente do terminal e Bibliotecas são coleções de código que empacotamos para que possamos usá-los em outros programas. 
 
 ### Import "fmt"
 > O import é como incluímos código de outros pacotes para usar com o nosso programa.
@@ -63,6 +63,8 @@ do tipo de arquitetura que você está usando.
 instruções if também têm uma parte else opcional. Se a condição for avaliada como verdadeira, o bloco após 
 a condição será executado; caso contrário, o bloco será ignorado ou, se o bloco else estiver presente, esse 
 bloco será executado.
+
+## Capítulo 5 - Arrays, Slices, e Maps
 >
-> - 
+> - Um array é uma sequência numerada de elementos de um único tipo com comprimento fixo. 
 
