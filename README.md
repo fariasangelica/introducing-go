@@ -5,16 +5,17 @@ O autor aborda os principais recursos da linguagem e também tem os exercícios 
 
 ## Capítulo 1 - Introdução
 
-### Package main
-> É uma declaração de pacote e todo programa Go deve começar com ela.
-> Os pacotes são a maneira do Go organizar e reutilizar os códigos.
-> Existem dois tipos de programas em Go: Executáveis e bibliotecas. Executáveis são is tips de programas que podemos executar diretamente do terminal e Bibliotecas são coleções de código que empacotamos para que possamos usá-los em outros programas. 
-
-### Import "fmt"
-> O import é como incluímos código de outros pacotes para usar com o nosso programa.
-> O "fmt" (abreviação de formato) implementa a formatação de entrada e saída.
-> Para comentários -> // e /**/.
-> Funções são os blocos de construção de um programa Go. Eles têm entrada, saídas e uma série de etapas chamadas de instruções que são executadas em ordem. Todas as instruções devem começar com "func" e em seguida com o nome da função (principal, neste caso), uma lista de zero ou mais parâmetros entre parênteses, um tipo de retorno opcional e um corpo cercado por chaves.
+> Package main
+> - É uma declaração de pacote e todo programa Go deve começar com ela.
+> - Os pacotes são a maneira do Go organizar e reutilizar os códigos.
+> - Existem dois tipos de programas em Go: Executáveis e bibliotecas. Executáveis são is tips de programas que podemos executar diretamente do terminal e Bibliotecas são coleções de código que empacotamos para que possamos usá-los em outros programas. 
+>
+> 
+> Import "fmt"
+> - O import é como incluímos código de outros pacotes para usar com o nosso programa.
+> - O "fmt" (abreviação de formato) implementa a formatação de entrada e saída.
+> - Para comentários -> // e /**/.
+> - Funções são os blocos de construção de um programa Go. Eles têm entrada, saídas e uma série de etapas chamadas de instruções que são executadas em ordem. Todas as instruções devem começar com "func" e em seguida com o nome da função (principal, neste caso), uma lista de zero ou mais parâmetros entre parênteses, um tipo de retorno opcional e um corpo cercado por chaves.
 
 ## Capítulo 2 - Tipos
 ### Números
