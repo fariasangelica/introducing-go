@@ -66,5 +66,21 @@ bloco será executado.
 
 ## Capítulo 5 - Arrays, Slices, e Maps
 >
-> - Um array é uma sequência numerada de elementos de um único tipo com comprimento fixo. 
-
+> - Um array é uma sequência numerada de elementos de um único tipo com comprimento fixo.
+> 
+> - O compilador Go não permitirá que você crie variáveis que você nunca use.
+>
+> - Sublinhado (_) é usado para informar ao compilador que não precisamos disso (nesse caso, não 
+precisamos da variável iteradora).
+>
+> - Slices é um segmento de um Array. Assim como os arrays, os slices são indexáveis e possuem um comprimento. Ao contrário dos arrays, esse comprimento pode mudar.
+>
+> Append:
+> - Adiciona elementos ao final de um slices. Se houver capacidade suficiente no array, o elemento será colocado após o último elemento e o comprimeito será incrementado. Porém, se não houver capacidade suficiente, um novo array é criado, todos os elementos existentes são copiados, o novo elemento é adicionado ao final e o novo slice é retornado.
+> 
+> Copy:
+> - Leva dois argumentos: dst e src. Todas as entradas em src são copiadas para dst, substituindo o que estiver lá. Se os comprimentos das duas fatias não forem iguais, será usada a menor das duas.
+>
+> - Maps são coleções não ordenada de pares de valores-chave. São usados para procurar um valor pela sua chave associada.
+>
+> -
