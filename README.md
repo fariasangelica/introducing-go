@@ -83,4 +83,23 @@ precisamos da variável iteradora).
 >
 > - Maps são coleções não ordenada de pares de valores-chave. São usados para procurar um valor pela sua chave associada.
 >
-> -
+## Capítulo 6 - Funções
+> - É uma seção independente de código que mapeia zero ou mais parâmetros de entrada para zero ou mais parâmetros de saída.
+> ![alt text](image.png)
+>
+> - As funções começam com a palavra-chave func, seguida do nome da função. Os parâmetros (entradas) da função são definidos: tipo de nome, tipo de nome... A função tem um parâmetro (a lista de pontuações) que chamamos de xs. Após os parâmetros. Colocamos o tipo retorno. Parâmentros e retornos são conhecidos como assiantura da função.
+>
+> - O corpo da função é uma série de instruções entre chaves.
+>
+> - Função panic causa um erro de execução.
+>
+> - As funções não têm acesso a nada na função de chamada, a menos que seja transmitida explicitamente.
+>
+> Defer:
+> - Agenda uma chamada de função para ser executada após a conclusão da função.
+>
+> - Defer é frequentemente usado quando os recursos precisam ser liberados de alguma forma. Por exemplo, abrimos um arquivo, precisamos fechá-lo mais tarde.
+>
+> - Um panic geralemente indica um erro do programador (por exemplo, tentar acessar um índice de um array que está fora dos limites, esquecer de inicializar um map, etc) ou uma condição excepcional da qual não há uma maneira fácil de se recuperar.
+>
+> - 
