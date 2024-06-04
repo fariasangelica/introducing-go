@@ -104,3 +104,4 @@ precisamos da variável iteradora).
 > Panic:
 > - Um panic geralemente indica um erro do programador (por exemplo, tentar acessar um índice de um array que está fora dos limites, esquecer de inicializar um map, etc) ou uma condição excepcional da qual não há uma maneira fácil de se recuperar.
 >
+>
