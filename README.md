@@ -104,4 +104,7 @@ precisamos da variável iteradora).
 > Panic:
 > - Um panic geralemente indica um erro do programador (por exemplo, tentar acessar um índice de um array que está fora dos limites, esquecer de inicializar um map, etc) ou uma condição excepcional da qual não há uma maneira fácil de se recuperar.
 >
+> Ponteiro:
+> - Fazem uma referência a um local na memória onde um valor é armazenado, em vez do valor em si. Usando um ponteiro (*int), a função zero é capaz de modificar a variável original.
+>
 >
