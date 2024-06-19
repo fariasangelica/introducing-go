@@ -107,4 +107,20 @@ precisamos da variável iteradora).
 > Ponteiro:
 > - Fazem uma referência a um local na memória onde um valor é armazenado, em vez do valor em si. Usando um ponteiro (*int), a função zero é capaz de modificar a variável original.
 >
+## Capítulo 7 - Estruturas e Interfaces
+> - Uma struct é um tipo que contém campos nomeados.
 >
+> - Interface usa a palavra chave type, seguida por um nome e a palavra chave interface. Mas em vez de definir campo, definimos um conjunto de métodos. Um conjunto de métodos é uma lista de métodos que um tipo deve ter para implementar a interface.
+>
+## Capítulo 8 - Pacotes
+> Go foi projetado para ser uma linguagem que incentiva boas práticas de engenharia de software. Uma parte importante do software de alta qualidade é a reutilização do código.
+>
+> fmt é o nome de um pacote que inclui uma variedade de funções relacionadas à formatação e saída para a tela. Agrupar o código dessa forma serve a três propósitos:
+>
+> - Reduz a chance de termos nomes sobrepostos e, por sua vez, mantém nossa função nomes de ações curtos e sucintos.
+>
+> - Ele organiza o código para que seja mais fácil encontrar o código que você deseja reutilizar.
+>
+> - Ele acelera o compilador exigindo apenas a recompilação de partes menores de um programa. Embora utilizemos o pacote fmt, não precisamos recompila-lo toda vez que alteramos nosso programa.
+>
+> - Uma função hash pega um conjunto de dados e o reduz a um tamanho fixo menor. Hashes são frequentemente usados em programação para tudo, desde procurar dados até detectar facilmente alterações. As funções hash em Go são divididas em duas categorias: criptográficas e não criptográficas.
