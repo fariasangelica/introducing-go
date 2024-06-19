@@ -1,4 +1,4 @@
-# introducing-go 
+# Introdução a Linguagem Go
 
 Repositório dedicado a leitura do Livro [_Introducing Go_](https://www.amazon.com.br/Introducing-Go-Caleb-Doxsey/dp/1491941952) do autor Caleb Doxsey.
 O autor aborda os principais recursos da linguagem e também tem os exercícios de cada capítulo para ajuda-lo a praticar o que aprendeu.
@@ -107,6 +107,7 @@ precisamos da variável iteradora).
 > Ponteiro:
 > - Fazem uma referência a um local na memória onde um valor é armazenado, em vez do valor em si. Usando um ponteiro (*int), a função zero é capaz de modificar a variável original.
 >
+<<<<<<< HEAD
 ## Capítulo 7 - Estruturas e Interfaces
 > - Uma struct é um tipo que contém campos nomeados.
 >
@@ -124,3 +125,6 @@ precisamos da variável iteradora).
 > - Ele acelera o compilador exigindo apenas a recompilação de partes menores de um programa. Embora utilizemos o pacote fmt, não precisamos recompila-lo toda vez que alteramos nosso programa.
 >
 > - Uma função hash pega um conjunto de dados e o reduz a um tamanho fixo menor. Hashes são frequentemente usados em programação para tudo, desde procurar dados até detectar facilmente alterações. As funções hash em Go são divididas em duas categorias: criptográficas e não criptográficas.
+=======
+>
+>>>>>>> 8539ca545efcc87b366905523beef698ef6bc5a1
